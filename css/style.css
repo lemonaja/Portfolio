@@ -128,7 +128,7 @@ nav {
     .nav-list {
     position: absolute;
     right: 0;
-    top: 8px;
+    top: 1px;
     width: 100vw;
     height: 25vh;
     background: #12162C;
