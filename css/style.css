@@ -343,13 +343,11 @@ main{
 }
 
 .imgresolucao{
-    width: 70px;
     height: 70px;
     margin-right: 10px;
 }
 
 .imgcomunicacao{
-    width: 60px;
     height: 60px;
     margin-left: 15px;
 }
@@ -360,7 +358,6 @@ main{
 }
 
 .imgatento{
-    width: 65px;
     height: 65px;
 }
 
