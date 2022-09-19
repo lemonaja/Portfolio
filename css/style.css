@@ -168,9 +168,9 @@ nav {
     transform: translateX(0);
   }
 }
-@media (max-width: 500px){
+@media (max-width: 475px){
     #inicio{
-        margin-top: 142px;
+        margin-top: 145px;
       }
 }
 
