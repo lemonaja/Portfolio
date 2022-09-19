@@ -144,7 +144,7 @@ nav {
     opacity: 0;
   }
   #inicio{
-    margin-top: 170px;
+    margin-top: 175px;
   }
   .mobile-menu {
     display: block;
@@ -168,7 +168,11 @@ nav {
     transform: translateX(0);
   }
 }
-
+@media (max-width: 500px){
+    #inicio{
+        margin-top: 120px;
+      }
+}
 .mobile-menu.active .line1 {
   transform: rotate(-45deg) translate(-8px, 8px);
 }
