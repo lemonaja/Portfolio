@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="favicon">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <section id="header-container">
@@ -23,11 +25,10 @@
               <li id="inicio"><a href="#header-container">Início</a></li>
               <li><a href="#sobremim-container">Sobre mim</a></li>
               <li><a href="#habilidades-container">Habilidades</a></li>
-              <li><a href="#projetos-container">Projetos</a></li>
+              <li><a href="#projetosfigma">Projetos</a></li>
             </ul>
           </nav>
     </header>
-    <script src="javascript/script.js"></script>
     <div class="header-container">
         <div class="Home">
             <h1 class="textoFernando">Olá, meu nome é <br> <span class="Fernando">Fernando Lemos.</span> <br> <span class="devfront"> Desenvolvedor Front-End </span></h1>
@@ -45,10 +46,10 @@
             </div>
         </section>
         <section id="habilidades-container">
-                <div class="h1habilidades">
+                <div class="h1habilidades" data-aos="fade-right" data-aos-duration="600">
                 <h1 class="h1habilidades">Habilidades</h1>
                 </div>
-            <div id="habilidades">
+            <div id="habilidades" data-aos="fade-right" data-aos-duration="600">
                 <div class="html">
                     <h1>HTML5</h1>
                     <img src="imagens/html.svg" alt="icone html">
@@ -65,17 +66,17 @@
                     <h1 id="h1python">Python</h1>
                     <img class="imgpython" src="imagens/python.png" alt="icone python">
                 </div>
-                <div class="figma">
+                <div id="projetosfigma" class="figma">
                     <h1>Figma</h1>
                     <img src="imagens/figma.svg" alt="icone figma">
                 </div>
             </div>
         </section>
         
-            <div class="h1projetos">
+            <div class="h1projetos" data-aos="fade-right" data-aos-duration="600">
                 <h1 class="h1projetos">Projetos</h1>
             </div>
-            <section id="projetos-container">
+            <section id="projetos-container" data-aos="fade-right" data-aos-duration="600">
             <div class="projetocasa">
                 <a target="_blank" href="https://lemonaja.github.io/Casa-Itanhaem/"><img class="border-img" src="imagens/projetocasaitanhaem.png" alt="Projeto de uma Casa na Praia"></a>
                 <p>Projeto de uma Casa na Praia</p>
@@ -98,7 +99,7 @@
         </section>
         <section>
             <footer>
-                <div class="footer">
+                <div class="footer" data-aos="fade-right" data-aos-duration="600">
                     <h1 class="footercontatos">Contatos</h1>
                 <div class="footerdiv">
                     <div class="footera">
@@ -118,5 +119,10 @@
             </footer>
         </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
