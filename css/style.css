@@ -221,6 +221,16 @@ nav {
     .projetos{
         padding-right: 0px;
     }
+    body::-webkit-scrollbar {
+        display: none;             
+      }
+      body::-webkit-scrollbar-track {
+        display: none;
+      }
+      
+      body::-webkit-scrollbar-thumb {
+        display: none;   
+      }
 }
 
 main{
@@ -253,6 +263,19 @@ main{
     line-height: 32px;
 }
 
+#sobremim-container h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.h1formhobbies{
+    margin-top: 50px;
+}
+
+
 #habilidades{
     display: flex;
     flex-direction: row;
@@ -270,7 +293,7 @@ main{
     border-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%);
     border-image-slice: 1;
     cursor: pointer;
-    margin: 100px 25px 0 25px;
+    margin: 50px 25px 0 25px;
     transition: 0.3s;
     
 }
@@ -289,7 +312,7 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 
-#habilidades h1:not(#h1python){
+#habilidades h1:not(#h1python,#softskills,#hardskills,#h1resolucao,#atento,#h1comunicacao){
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 18px;
@@ -301,6 +324,83 @@ main{
 .imgpython{
     width: 90px;
     height: 90px;
+}
+
+#hardskills{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+#softskills{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.imgmysql{
+    width: 70px;
+    height: 70px;
+}
+
+.imgresolucao{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.imgcomunicacao{
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.imgequipe{
+    width: 50px;
+    height: 50px;
+}
+
+.imgatento{
+    width: 65px;
+    height: 65px;
+}
+
+.imgproatividade{
+    width: 70px;
+    height: 70px;
+}
+
+.imgcriativo{
+    height: 65px;
+}
+
+#h1resolucao{
+    margin-top: 16px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+#atento{
+    margin-top: 16px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+#h1comunicacao{
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
 }
 
 #h1python{
@@ -470,6 +570,21 @@ footer h1{
         width: 200px;
         height: 200px;
     }
+    .textoFernando{
+        font-size: 24px;
+    }
+    .Fernando{
+        font-size: 36px;
+    }
+    .header-container{
+        height: 68vh;
+    }
+
+    #sobremim-container p{
+        margin-right: 30px;
+        margin-left: 30px;
+}
+  
 
 }
 
@@ -479,17 +594,47 @@ footer h1{
         opacity: 100%;
     }
     #sobremim-container p{
-        font-size: 14px;}
+        margin-right: 40px;
+        margin-left: 40px;
+}
     
 }
 @media (max-width: 500px){
     .border-img{
         height: 150px;
-        opacity: 100%;
     }
     
+    #sobremim-container p{
+            margin-right: 40px;
+            margin-left: 40px;
+    }
 }
 
+body::-webkit-scrollbar {
+    width: 14px;             
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-image: linear-gradient(to bottom, #121214, #12162C);   
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #A40EE4;        
+
+  }
+
+
+  @media (max-width: 1130px){ 
+    .border-img{
+    opacity: 100%;
+    transform: none;
+} 
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+}
 
 
 
