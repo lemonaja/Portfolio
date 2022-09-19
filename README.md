@@ -1,6 +1,6 @@
 # Portfolio
 
-![full-size-portfolio.png](./GitHub/full-size-portfolio.png)
+![full-size-portfolio2.png](./GitHub/full-size-portfolio2.png)
 
 Meu portfólio, feito apenas com HTML5, CSS3 e JavaScript.
 
