@@ -36,9 +36,22 @@ class MobileNavbar {
     }
   }
   
-  const mobileNavbar = new MobileNavbar(
+const mobileNavbar = new MobileNavbar(
     ".mobile-menu",
     ".nav-list",
     ".nav-list li",
   );
   mobileNavbar.init();
+
+function typeWriter(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i)=> {
+        setTimeout(() => {
+            elemento.innerHTML += letra
+        }, 150*i)
+    });
+}
+
+const titulo = document.querySelectorAll('span');
+Array.from(titulo).forEach(typeWriter);

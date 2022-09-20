@@ -40,14 +40,6 @@ body{
     color: #A40EE4;
 }
 
-.devfront{
-    font-size: 20px;
-    color: #828282;
-    font-weight: 500;
-    font-family: 'DM Sans', sans-serif;
-
-}
-
 .fotoHome{
     margin-top: 100px;
     margin-right: 100px;
@@ -628,6 +620,29 @@ a {
     text-decoration: none;
     transition: 0.3s;
   }
+}
+
+.Fernando::after{
+ content: '|';
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.Home p{
+    font-size: 20px;
+    color: #828282;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
