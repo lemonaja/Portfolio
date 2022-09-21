@@ -627,6 +627,10 @@ footer h1{
             margin-right: 40px;
             margin-left: 40px;
     }
+    .footera{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 }
 
 body::-webkit-scrollbar {
