@@ -618,7 +618,7 @@ footer h1{
 }
     
 }
-@media (max-width: 500px){
+@media (max-width: 450px){
     .border-img{
         height: 150px;
     }
@@ -627,8 +627,13 @@ footer h1{
             margin-right: 40px;
             margin-left: 40px;
     }
-    .footera{
-        margin-top: 100px;
+    .footera h1{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .footera img{
+        margin-right: 40px;
+        margin-left: 40px;
     }
     #linkedin{
         margin-top: 50px;
@@ -637,9 +642,6 @@ footer h1{
     #github{
         margin-top: 50px;
         margin-bottom: 50px;
-    }
-    .gith1{
-        margin-right: 57px;
     }
 }
 
