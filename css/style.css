@@ -632,15 +632,13 @@ footer h1{
         margin-left: 0px;
     }
     .footera img{
-        margin-right: 40px;
-        margin-left: 40px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
-    #linkedin{
-        margin-top: 50px;
-        margin-bottom: 50px;
+    .footera{
+        margin: 50px 0px 50px 0px;
     }
-    #github{
-        margin-top: 50px;
+    .footercontatos{
         margin-bottom: 50px;
     }
 }
