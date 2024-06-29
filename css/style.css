@@ -237,6 +237,7 @@ main{
     text-align: center;
     transition: transform .3s;
     animation: animationsobremim .7s .6s backwards;
+    padding-top: 50px;
 }
 
 #sobremim-container p{
@@ -266,6 +267,13 @@ main{
 
 .h1formhobbies{
     margin-top: 50px;
+}
+
+#habilidades-container::before {
+    content: '';
+    display: block;
+    height: 1px; 
+    margin-top: -60px; 
 }
 
 
@@ -305,7 +313,7 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 
-#habilidades h1:not(#h1python,#softskills,#hardskills,#h1resolucao,#atento,#h1comunicacao){
+#habilidades h1:not(#scrum,#sketch,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 18px;
@@ -314,9 +322,9 @@ main{
     font-weight: 500;
 }
 
-.imgpython{
-    width: 90px;
-    height: 90px;
+
+.imgadobexd{
+    width: 68px;
 }
 
 #hardskills{
@@ -363,7 +371,7 @@ main{
 }
 
 .imgcriativo{
-    height: 65px;
+    height: 60px;
 }
 
 #h1resolucao{
@@ -373,6 +381,29 @@ main{
     color: #8257e6;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
+}
+
+#sketch{
+    margin-top: 16px;
+    margin-bottom: -4px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+#scrum{
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.imgscrum{
+    width: 85px;
+    padding-left: 14px;
 }
 
 #atento{
@@ -393,14 +424,24 @@ main{
     font-weight: 500;
 }
 
-#h1python{
+#h1adobexd{
     font-size: 18px;
     color: #8257e6;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     margin-top: 16px;
-    margin-bottom: 7px;
+    margin-bottom: 14px;
 }
+
+#h1perfilcriativo{
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 9px;
+}
+
 
 @keyframes animationfoto{
     from{
@@ -425,6 +466,10 @@ main{
         opacity: 0; transform: translateX(-30px);}
 
     to{opacity: 1; transform: translateX(0)}
+}
+
+#projetoscontainercerto{
+    padding-top: 1px;
 }
 
 #projetos-container{
@@ -696,6 +741,60 @@ a {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.3s, top 0.3s;
+    z-index: 1000;
+    background: transparent; /* Definir fundo transparente por padrão */
+}
+
+nav.transparent {
+    background: transparent;
+}
+
+nav.solid {
+    background: #121214;
+}
+
+nav.hidden {
+    top: -70px; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #A40EE4; 
+}
+
+.imgphotoshop{
+    width: 70px;
+}
+
+.imgsketch{
+    width: 115px;
+    padding-left: 10px;
+}
+
 
 
 

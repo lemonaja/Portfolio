@@ -53,5 +53,33 @@ function typeWriter(elemento) {
     });
 }
 
-const titulo = document.querySelectorAll('span');
-Array.from(titulo).forEach(typeWriter);
+const navbar = document.querySelector('nav');
+let lastScrollTop = 0;
+
+window.addEventListener('scroll', () => {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        // Rolando para baixo
+        navbar.classList.add('hidden');
+    } else {
+        // Rolando para cima
+        navbar.classList.remove('hidden');
+    }
+
+    if (scrollTop > 100) { // Ajuste o valor conforme necessário
+        navbar.classList.remove('transparent');
+        navbar.classList.add('solid');
+    } else {
+        navbar.classList.remove('solid');
+        navbar.classList.add('transparent');
+    }
+
+    lastScrollTop = scrollTop;
+});
+
+
+
+
+
+
