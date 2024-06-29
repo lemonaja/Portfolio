@@ -8,11 +8,13 @@ Meu portfólio, feito apenas com HTML5, CSS3 e JavaScript.
 
 ## 🛠 Tecnologias 
 
+-Figma
+
 -HTML
 
 -CSS
 
--Javascript
+-JavaScript
 
 -Git e GitHub
 
