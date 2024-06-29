@@ -313,7 +313,7 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 
-#habilidades h1:not(#scrum,#sketch,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
+#habilidades h1:not(#fluxo,#wireframe,#scrum,#sketch,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 18px;
@@ -385,7 +385,7 @@ main{
 
 #sketch{
     margin-top: 16px;
-    margin-bottom: -4px;
+    margin-bottom: -6px;
     font-size: 18px;
     color: #8257e6;
     font-family: 'DM Sans', sans-serif;
@@ -405,6 +405,36 @@ main{
     width: 85px;
     padding-left: 14px;
 }
+
+#wireframe{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.imgwireframe{
+    width: 70px;
+    padding-left: 3px;
+}
+
+#fluxo{
+    margin-top: 16px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+
+.imgfluxo{
+    width: 75px;
+    padding-left: 3px;
+}
+
 
 #atento{
     margin-top: 16px;
@@ -807,7 +837,7 @@ nav ul li a:hover {
 }
 
 .imgsketch{
-    width: 115px;
+    width: 120px;
     padding-left: 10px;
 }
 
