@@ -118,11 +118,11 @@ nav {
         border: none;
     }
     .nav-list {
-    position: absolute;
+    position: fixed;
     top: 0px;
     width: 100vw;
     height: 25vh;
-    background: #12162C;
+    background: #121214;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -499,6 +499,7 @@ main{
     border-image-slice: 1;
     opacity: 50%;
     transition: 0.3s;
+    width: 450px;
 }
 
 .border-img:hover{
@@ -526,6 +527,19 @@ main{
 }
 
 .projetonlw p{
+    margin-top: 16px;
+}
+
+.projetoportfolio{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.projetoportfolio p{
     margin-top: 16px;
 }
 
@@ -655,6 +669,7 @@ footer h1{
 @media (max-width: 650px){
     .border-img{
         height: 200px;
+        width: 400px;
         opacity: 100%;
     }
     #sobremim-container p{
@@ -666,6 +681,7 @@ footer h1{
 @media (max-width: 450px){
     .border-img{
         height: 150px;
+        width: 350px;
     }
     
     #sobremim-container p{
@@ -794,6 +810,16 @@ nav ul li a:hover {
     width: 115px;
     padding-left: 10px;
 }
+
+.mobile-menu.active {
+    position: fixed;
+    top: 10px; /* Ajustar conforme necessário */
+    left: -5px; /* Manter no lado esquerdo */
+    z-index: 1001; /* Garantir que o botão fique acima do menu */
+}
+
+
+
 
 
 
