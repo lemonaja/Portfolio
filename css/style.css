@@ -313,7 +313,7 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 
-#habilidades h1:not(#fluxo,#wireframe,#scrum,#sketch,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
+#habilidades h1:not(#mongodb,#jquery,#nodejs,#react,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 18px;
@@ -383,7 +383,7 @@ main{
     font-weight: 500;
 }
 
-#sketch{
+#react{
     margin-top: 16px;
     margin-bottom: -6px;
     font-size: 18px;
@@ -392,7 +392,7 @@ main{
     font-weight: 500;
 }
 
-#scrum{
+#nodejs{
     margin-top: 16px;
     margin-bottom: 12px;
     font-size: 18px;
@@ -401,12 +401,11 @@ main{
     font-weight: 500;
 }
 
-.imgscrum{
-    width: 85px;
-    padding-left: 14px;
+.imgnodejs{
+    width: 75px;
 }
 
-#wireframe{
+#jquery{
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 18px;
@@ -415,12 +414,11 @@ main{
     font-weight: 500;
 }
 
-.imgwireframe{
+.imgjquery{
     width: 70px;
-    padding-left: 3px;
 }
 
-#fluxo{
+#mongodb{
     margin-top: 16px;
     margin-bottom: 14px;
     font-size: 18px;
@@ -430,9 +428,8 @@ main{
 }
 
 
-.imgfluxo{
-    width: 75px;
-    padding-left: 3px;
+.imgmongodb{
+    width: 32px;
 }
 
 
@@ -836,9 +833,9 @@ nav ul li a:hover {
     width: 70px;
 }
 
-.imgsketch{
-    width: 120px;
-    padding-left: 10px;
+.imgreact{
+    width: 85px;
+    margin-top: 12px;
 }
 
 .mobile-menu.active {
