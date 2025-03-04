@@ -313,7 +313,7 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 
-#habilidades h1:not(#mongodb,#jquery,#nodejs,#react,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
+#habilidades h1:not(#h1sketch,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 18px;
@@ -322,10 +322,37 @@ main{
     font-weight: 500;
 }
 
+#h1sketch{
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 16px;
+}
 
 .imgadobexd{
     width: 68px;
 }
+
+.imgsketch{
+    width: 105px;
+    margin-left: 8px;
+}
+
+.imgscrum{
+    width: 70px;
+    margin-left: 12px;
+}
+
+.imgwireframe{
+    width: 65px;
+    margin-top: 4px;
+}
+
+.imgfluxograma{
+    width: 70px;
+}
+
 
 #hardskills{
     font-family: 'DM Sans', sans-serif;
