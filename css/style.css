@@ -265,6 +265,14 @@ main{
     margin-top: 20px;
 }
 
+#sobremim-container h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 10px;
+}
+
 .h1formhobbies{
     margin-top: 50px;
 }
@@ -313,7 +321,7 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 
-#habilidades h1:not(#h1sketch,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
+#habilidades h1:not(#h1testedeusabilidade,#h1pesquisacomusuario,#h1sketch,#h1adobexd,#softskills,#hardskills,#h1resolucao,#atento,#h1perfilcriativo,#h1comunicacao){
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 18px;
@@ -328,6 +336,29 @@ main{
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     margin-top: 16px;
+}
+
+#h1pesquisacomusuario{
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+#h1testedeusabilidade{
+    margin-top: 8px;
+    font-size: 18px;
+    color: #8257e6;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.imgtestedeusabilidade{
+    width: 85px;
+    height: 85px;
+    padding-bottom: 5px;
 }
 
 .imgadobexd{
@@ -373,6 +404,11 @@ main{
     height: 70px;
 }
 
+.imgprototipagem{
+    width: 70px;
+    height: 70px;
+}
+
 .imgresolucao{
     height: 70px;
     margin-right: 10px;
@@ -401,6 +437,16 @@ main{
     height: 60px;
 }
 
+.imgtesteab{
+    width: 70px;
+    height: 70px;
+}
+
+.imgpesquisa{
+    width: 60px;
+    height: 60px;
+}
+
 #h1resolucao{
     margin-top: 16px;
     margin-bottom: 2px;
@@ -409,56 +455,6 @@ main{
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
 }
-
-#react{
-    margin-top: 16px;
-    margin-bottom: -6px;
-    font-size: 18px;
-    color: #8257e6;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-}
-
-#nodejs{
-    margin-top: 16px;
-    margin-bottom: 12px;
-    font-size: 18px;
-    color: #8257e6;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-}
-
-.imgnodejs{
-    width: 75px;
-}
-
-#jquery{
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font-size: 18px;
-    color: #8257e6;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-}
-
-.imgjquery{
-    width: 70px;
-}
-
-#mongodb{
-    margin-top: 16px;
-    margin-bottom: 14px;
-    font-size: 18px;
-    color: #8257e6;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-}
-
-
-.imgmongodb{
-    width: 32px;
-}
-
 
 #atento{
     margin-top: 16px;
@@ -598,6 +594,19 @@ main{
 }
 
 .projetocasa p{
+    margin-top: 16px;
+}
+
+.projetogoab{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.projetogoab p{
     margin-top: 16px;
 }
 
@@ -818,7 +827,7 @@ nav {
     width: 100%;
     transition: background-color 0.3s, top 0.3s;
     z-index: 1000;
-    background: transparent; /* Definir fundo transparente por padrão */
+    background: transparent; 
 }
 
 nav.transparent {
@@ -867,9 +876,9 @@ nav ul li a:hover {
 
 .mobile-menu.active {
     position: fixed;
-    top: 10px; /* Ajustar conforme necessário */
-    left: -5px; /* Manter no lado esquerdo */
-    z-index: 1001; /* Garantir que o botão fique acima do menu */
+    top: 10px; 
+    left: -5px; 
+    z-index: 1001; 
 }
 
 
