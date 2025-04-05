@@ -447,6 +447,11 @@ main{
     height: 60px;
 }
 
+.imgphotoshop{
+    width: 70px;
+}
+
+
 #h1resolucao{
     margin-top: 16px;
     margin-bottom: 2px;
@@ -550,6 +555,7 @@ main{
     opacity: 50%;
     transition: 0.3s;
     width: 450px;
+    cursor: pointer;
 }
 
 .border-img:hover{
@@ -623,6 +629,8 @@ main{
     margin-top: 5px;
 }
 
+/* Footer */
+
 footer h1{
     text-align: center;
     color: white;
@@ -671,6 +679,8 @@ footer h1{
 .footercontatos{
     margin-top: 100px;
 }
+
+/* Responsividade */
 
 @media (max-width: 900px){
     .footera p{
@@ -767,6 +777,8 @@ footer h1{
     }
 }
 
+/* Scrollbar do Site */
+
 body::-webkit-scrollbar {
     width: 14px;             
   }
@@ -780,6 +792,8 @@ body::-webkit-scrollbar {
 
   }
 
+
+/* Responsividade e menu hamburguer */
 
   @media (max-width: 1130px){ 
     .border-img{
@@ -865,15 +879,6 @@ nav ul li a:hover {
     color: #A40EE4; 
 }
 
-.imgphotoshop{
-    width: 70px;
-}
-
-.imgreact{
-    width: 85px;
-    margin-top: 12px;
-}
-
 .mobile-menu.active {
     position: fixed;
     top: 10px; 
@@ -882,10 +887,167 @@ nav ul li a:hover {
 }
 
 
+/* Modal */
 
+.modal-projeto {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 22, 44, 0.95);
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .modal-conteudo {
+    background-color: #212121;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 15px;
+    padding: 0;
+    max-width: 900px;
+    width: 100%;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .modal-header {
+    position: relative;
+    padding: 10px 20px 10px 30px;
+    background-color: #212121;
+    border-bottom: 1px solid #333;
+  }
 
+  .modal-header h1 {
+    font-size: 22px;
+    margin: 0;
+    color: white;
+  }
+  
+  .fechar-modal {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 28px;
+    color: #A40EE4;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 10;
+  }
+  
+  
+  .fechar-modal:hover {
+    color: white;
+  }
+  
+  /* Conteúdo scrollável */
+  .modal-scroll {
+    overflow-y: auto;
+    padding: 20px 20px 6px 20px;
+    flex: 1;
+  }
 
+  .modal-scroll img:first-child {
+    margin-top: 0 !important;
+  }
+  
+  .modal-scroll img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  /* Scrollbar */
+  .modal-scroll::-webkit-scrollbar {
+    width: 14px;
+  }
+  
+  .modal-scroll::-webkit-scrollbar-track {
+    background-image: linear-gradient(to bottom, #121214, #12162C);
+  }
+  
+  .modal-scroll::-webkit-scrollbar-thumb {
+    background-color: #A40EE4;
+  }
 
+  /* Projeto JavaScript */
 
-
-
+  .projeto-case {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    padding: 10px;
+    line-height: 1.8;
+  }
+  
+  .projeto-section {
+    margin-bottom: 32px;
+  }
+  
+  .projeto-case h2 {
+    font-size: 24px;
+    color: #A40EE4;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .projeto-case p {
+    font-size: 18px;
+    color: #dcdcdc;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+  
+  .projeto-case a {
+    color: #A40EE4;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .projeto-case a:hover {
+    text-decoration: underline;
+  }
+  
+  .imagem-case {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .flex-responsive {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .wireframe-img {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+    display: block;
+  }
+  
+  .flex-responsive > div {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  /* Opcional para espaçamento nos h2, exceto o primeiro */
+  .projeto-case h2:not(:first-of-type) {
+    margin-top: 35px;
+  }
+  
