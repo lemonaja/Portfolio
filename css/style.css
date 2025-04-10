@@ -128,7 +128,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: translateX(-100%);
+    transform: translateX(-150%);
     animation: navLinkFade;
     transition: transform 7s 0.3s ease-in backwards;
     z-index: 2;
@@ -963,7 +963,20 @@ nav ul li a:hover {
     }
   }
 
-
+  @media (max-width: 660px) {
+    .Home2{
+      text-align: center;
+    }
+    .Home2 h1{
+      margin: auto auto 100px auto;
+      font-size: 80px;
+      padding-left: 0px;
+    }
+    .Home2 h2{
+      margin: 100px auto auto auto;
+      padding-left: 0px;
+    }
+  }
 
 
 /* Conteudo */
