@@ -1,0 +1,266 @@
+[33mcommit 95befd3b1c42248c3d00199928fd492759cea7fb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Thu Apr 10 20:12:48 2025 -0300
+
+    Arrumei novamente o menu hamburguer
+
+[33mcommit 89779393c8569f94e81dbc974ba5105f27e453c8[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Thu Apr 10 19:13:35 2025 -0300
+
+    Arrumei o menu hamburguer
+
+[33mcommit a4a623db3d1f5b6746c996427d6198103a695321[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Thu Apr 10 18:05:55 2025 -0300
+
+    Arrumei a responsividade do h1
+
+[33mcommit 10b9287e4286c235373845cba407130f15f3d42c[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Wed Apr 9 18:49:36 2025 -0300
+
+    Adicionei projetos novos e uma página para o projeto Greco Gum
+
+[33mcommit c59e691d28f25ed9c381ffb6be6241b7b5d5e18e[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Fri Apr 4 23:50:40 2025 -0300
+
+    Adicionei modal ao clicar no projeto
+
+[33mcommit 8bbb5c030e6c7d6242e39ac911cf22f1d68190d9[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Wed Apr 2 20:00:04 2025 -0300
+
+    Adicionei o restante das habilidades
+
+[33mcommit 18cf0e6cd86aaa5f818810424bd2d720dc9a7dc9[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Tue Mar 4 09:12:51 2025 -0300
+
+    Adicionei hard skills
+
+[33mcommit 50aaa908ae785dfb8adb5a820c8a78e27a79f083[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Tue Mar 4 08:47:17 2025 -0300
+
+    Adicionei tudo certo
+
+[33mcommit b1d6701284c2039cc0dfccaa71662acf6e39d843[m
+Merge: 5d152c4 bc211c2
+Author: Fernando <febibilemos@gmail.com>
+Date:   Tue Mar 4 08:44:38 2025 -0300
+
+    commit
+
+[33mcommit 5d152c445f35d56c4172ad32087dca7e85ba97d2[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Tue Mar 4 08:41:34 2025 -0300
+
+    Atualizei algumas coisas de UX
+
+[33mcommit bc211c22293fcfaa28ba273aa38406db6c76f1e4[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Thu Aug 15 21:19:58 2024 -0300
+
+    Adicionei uma screenshot nova no readme
+
+[33mcommit 815c100e7588ee1d24a5f892fc636550598e6c50[m
+Author: Fernando Carlos Lemos <109550979+lemonaja@users.noreply.github.com>
+Date:   Thu Aug 15 21:11:22 2024 -0300
+
+    Add files via upload
+
+[33mcommit b74a16c664a7066cdf4b2c232b559506e278aa89[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Thu Aug 15 21:06:32 2024 -0300
+
+    Alterei as hard skills
+
+[33mcommit decb2a2c07ccc0bd70f2a816f896bfb1e44e79e7[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Sat Jun 29 14:46:45 2024 -0300
+
+    adicionei algumas hard skills
+
+[33mcommit e4d13c738791b24e76758051b793bc2ec81b055b[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Sat Jun 29 14:09:28 2024 -0300
+
+    removi a parte de projetos que ainda não tem conteudo
+
+[33mcommit 9df6d09c6eeaec47de29ed4b5c2ea0d6d52e808c[m
+Author: Fernando Carlos Lemos <109550979+lemonaja@users.noreply.github.com>
+Date:   Sat Jun 29 01:11:05 2024 -0300
+
+    Update README.md
+
+[33mcommit 210fcaf31b85f80c033ac06fe0eadba98d6493c9[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Sat Jun 29 01:06:57 2024 -0300
+
+    Arrumei quase tudo que tinha para arrumar, só falta mudar o projeto do behance
+
+[33mcommit 08649e8f3f81b870544a08c94d4b18fc6f2caf63[m
+Author: Fernando <febibilemos@gmail.com>
+Date:   Fri Jun 28 23:49:42 2024 -0300
+
+    Alterei diversas coisas, mas ainda falta alterar os projetos, e o menu hamburguer ao scrollar no celular
+
+[33mcommit 4f5d1216516430742b60226e6922d4df0899a611[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Wed Sep 21 21:45:58 2022 -0300
+
+    Arrumei o margin-bottom do h1 footer
+
+[33mcommit 22146d56a5120a0e75b3f3a78ad2dab73ccb7f26[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Wed Sep 21 21:39:25 2022 -0300
+
+    arrumei o margin das imagens do footer
+
+[33mcommit 04b117dd1ae16e24dc3f2f3ea655c597073bb300[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Wed Sep 21 21:32:18 2022 -0300
+
+    Arrumei de novo o margin-right do footer
+
+[33mcommit 8c791449e7b27f01fcf920b00a7787e459ecc21b[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Wed Sep 21 21:29:33 2022 -0300
+
+    Arrumei margin-right do github
+
+[33mcommit c856b9c48ae66c4b4a8ae14af817e22ad76f4183[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Wed Sep 21 21:25:30 2022 -0300
+
+    Arrumei o margin-right do footer
+
+[33mcommit 3b33daaf0b34b161c083fc72d06822e7ab2ff747[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Wed Sep 21 21:09:41 2022 -0300
+
+    Arrumei o margin-bottom do footer
+
+[33mcommit 2c38381043f5328c1b664655a1b6b8ed32049a19[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Wed Sep 21 20:59:50 2022 -0300
+
+    Arrumei as margens do footer nos dispositivos 500px
+
+[33mcommit 93c37cbc2d09e760205fbca01ceb20757b896408[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Wed Sep 21 20:40:55 2022 -0300
+
+    Arrumei a responsividade da nav-list
+
+[33mcommit 3fb28ae6af2e9ecf698e1b6d8881542a2437deb4[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 21:20:25 2022 -0300
+
+    Adicionei uma animação de escrita com JavaScript
+
+[33mcommit 280ec36f8e463aa7c460619f79e7b2174bfcfc73[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:53:53 2022 -0300
+
+    Arrumei o width dos icones
+
+[33mcommit ff5d74785e98c04900fdc7ad6c82b6531a47b841[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:44:50 2022 -0300
+
+    Finalização com width 400px
+
+[33mcommit 1ae52cc1e841591d33e1262f67ffd5e23ad60d77[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:39:58 2022 -0300
+
+    Arrumei o tamanho do top no position
+
+[33mcommit dfadd7f22c73daf2563b11407d27b57458f48a7b[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:37:23 2022 -0300
+
+    Arrumei o vh e adicionei position absolute
+
+[33mcommit 663441fb5cc499e433f68266e6f005ed40c40629[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:30:49 2022 -0300
+
+    Adicionei position absolute no nav
+
+[33mcommit e13468208f812bf3208e74950c600ce4f09d0cde[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:25:44 2022 -0300
+
+    Adicionei vh ao margin-top
+
+[33mcommit ee3762e7dd0010f57d2260523cfa331b7c4f38c2[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:21:41 2022 -0300
+
+    Adicionei porcentagem a margin-top do nav
+
+[33mcommit 319d7e3c9b61c26f08451e08a0b4162f578a8893[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:05:47 2022 -0300
+
+    Finalização da responsividade para width 500
+
+[33mcommit 18b983df6bcf8b0f7da9dfc774517c4feb6b522e[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 20:00:24 2022 -0300
+
+    Arrumei o margin-top de novo da responsividade
+
+[33mcommit 51390db3b8953a673a3c85a09681fedb2cede18d[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 19:57:18 2022 -0300
+
+    Adicionei mais margin-top a responsividade
+
+[33mcommit b850deb4dce59e5bfcd3773d84378f017d0768fb[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 19:52:51 2022 -0300
+
+    Removi o width 400
+
+[33mcommit 0583a770dc9e9c623dcf4f6b28173451acb81339[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 19:48:27 2022 -0300
+
+    Apaguei a responsividade com width 400
+
+[33mcommit 76052a8a98b11c65331d956c1f4a8c10efa28f20[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 19:43:53 2022 -0300
+
+    Adicionei responsividade a dispositivios com width 450,400
+
+[33mcommit 6c30eb626db8f1ad2fd1b3d83d21a41b180c095e[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 19:40:02 2022 -0300
+
+    Adicionei responsividade a dispositivos com width de 500px
+
+[33mcommit 04a1f8854732ce1cb1bbc74686119410bb2d412e[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 19:21:46 2022 -0300
+
+    Arrumei o menu hamburguer
+
+[33mcommit 1f5c75423d4d1990b080a9d1d028cc6ff587e7d6[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 18:07:41 2022 -0300
+
+    Arrumei os espaçamentos e o screenshot do README
+
+[33mcommit cab7e38dbde8374d40a124a0d778d2aaf0856b73[m
+Author: lemonaja <febibilemos@gmail.com>
+Date:   Mon Sep 19 17:58:28 2022 -0300
+
+    Arrumei o espaçamento
+
+[33mcommit d830657351e98eec0b5e3e9e448014d3
