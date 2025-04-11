@@ -1551,7 +1551,44 @@ nav ul li a:hover {
               }
 
 
+  .imagem-portfolio{
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%);
+    border-image-slice: 1;
+  }
+
+
+  /* Conteudo6 */
+
+  .Conteudo6 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-top: 60px;
+  }
+
+  .coluna-direita6 {
+    flex: 1;
+    min-width: 300px;
+    max-width: 200px;
+    margin-left: 0px;
+  }
+
+  .coluna-esquerda6 {
+    max-width: 800px;
+    min-width: 300px;
+    margin-left: 110px;
+    flex: 1;
+  }
   
+  .imagem-wireframe-portfolio{
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+  }
+
+ 
   
   
  
