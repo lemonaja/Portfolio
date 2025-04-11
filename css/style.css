@@ -135,10 +135,12 @@ nav {
   }
   .nav-list li {
     margin-left: 0;
+    margin-right: 0;
     margin-bottom: 5px;
     margin-top: 5px;
     opacity: 0;
-    padding: 5px 0;
+    padding: 5px 0 0 0;
+    
   }
 
   .nav-list li:first-of-type {
