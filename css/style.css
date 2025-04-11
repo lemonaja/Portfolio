@@ -978,6 +978,14 @@ nav ul li a:hover {
     }
   }
 
+  .Home2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    image-rendering: auto; 
+  }
 
 /* Conteudo */
 

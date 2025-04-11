@@ -75,6 +75,10 @@ window.addEventListener('scroll', () => {
         navbar.classList.add('transparent');
     }
 
+    if (scrollTop === 0) {
+        navbar.classList.remove('hidden');
+    }
+
     lastScrollTop = scrollTop;
 });
 
