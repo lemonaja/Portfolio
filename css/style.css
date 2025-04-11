@@ -159,11 +159,7 @@ nav {
     z-index: 3;
   }
 }
-@media (max-width: 500px){
-    .nav-list{
-        height: 27vh;
-    }
-}
+
 
 .nav-list.active {
   transform: translateX(0);
@@ -994,7 +990,6 @@ nav ul li a:hover {
     display: block;
     max-width: 100%;
     margin: 0 auto;
-    image-rendering: auto; 
   }
 
 /* Conteudo */
