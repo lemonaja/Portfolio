@@ -635,6 +635,15 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 
+.projetoepiguard{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'DM Sans', sans-serif;
+}
+
 .projetogrecogum p{
     margin-top:16px;
 }
@@ -1598,4 +1607,106 @@ nav ul li a:hover {
 
 
 
+/* =============================== */
+/* EPIGUARD – HERO */
+/* =============================== */
 
+.epiguard-hero-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 80px auto;
+}
+
+/* =============================== */
+/* GRID BASE */
+/* =============================== */
+
+.epiguard-grid-1,
+.epiguard-grid-2,
+.epiguard-grid-4 {
+  display: grid;
+  gap: 40px;
+  margin: 40px auto 80px auto;
+  padding: 0 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+/* =============================== */
+/* GRID 1 – DESENHOS INICIAIS */
+/* =============================== */
+
+.epiguard-grid-1 {
+  max-width: 600px;
+}
+
+.epiguard-grid-1 img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: 14px;
+}
+
+/* =============================== */
+/* GRID 2 – WIREFRAME + FIGMA */
+/* =============================== */
+
+.epiguard-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1100px;
+}
+
+.epiguard-grid-2 img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: 14px;
+}
+
+/* =============================== */
+/* GRID 4 – ESTADOS E ABAS */
+/* =============================== */
+
+.epiguard-grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1100px;
+}
+
+.epiguard-grid-4 img {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* =============================== */
+/* RESPONSIVO */
+/* =============================== */
+
+@media (max-width: 1024px) {
+  .epiguard-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .epiguard-grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .epiguard-grid-2 img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 640px) {
+  .epiguard-grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .epiguard-grid-4 img {
+    max-width: 90%;
+  }
+}
