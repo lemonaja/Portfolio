@@ -644,6 +644,15 @@ main{
     font-family: 'DM Sans', sans-serif;
 }
 
+.projetoskfitness{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'DM Sans', sans-serif;
+}
+
 .projetogrecogum p{
     margin-top:16px;
 }
@@ -1676,7 +1685,6 @@ nav ul li a:hover {
 
 .epiguard-grid-4 img {
   width: 100%;
-  max-width: 240px;
   height: auto;
   border-radius: 12px;
 }
@@ -1688,6 +1696,16 @@ nav ul li a:hover {
 @media (max-width: 1024px) {
   .epiguard-grid-4 {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .epiguard-grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .epiguard-grid-4 img {
+    max-width: 100%;
   }
 }
 
